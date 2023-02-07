@@ -3,12 +3,14 @@ def number_of_food_groups():
     return 5
 print(number_of_food_groups())
 #Consoles 5
+#Mine 5
 
 #2
 def number_of_military_branches():
     return 5
 print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
 #error
+#Mine error
 
 #3
 def number_of_books_on_hold():
@@ -16,6 +18,7 @@ def number_of_books_on_hold():
     return 10
 print(number_of_books_on_hold())
 #Consoles 5
+#Mine 5
 
 #4
 def number_of_fingers():
@@ -23,6 +26,7 @@ def number_of_fingers():
     print(10)
 print(number_of_fingers())
 #console 5
+#Mine 5
 
 #5
 def number_of_great_lakes():
@@ -30,18 +34,21 @@ def number_of_great_lakes():
 x = number_of_great_lakes()
 print(x)
 #console 5 none
+#Mine 5 none
 
 #6
 def add(b,c):
     print(b+c)
 print(add(1,2) + add(2,3))
 #synax error
+#Mine 3 5 9 
 
 #7
 def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
 #25
+#Mine 25
 
 #8
 def number_of_oceans_or_fingers_or_continents():
@@ -54,6 +61,7 @@ def number_of_oceans_or_fingers_or_continents():
     return 7
 print(number_of_oceans_or_fingers_or_continents())
 #100 10
+#Mine 100 10
 
 #9
 def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
@@ -66,6 +74,7 @@ print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 #7 14 21
+#Mine 7 14 21
 
 #10
 def addition(b,c):
@@ -73,6 +82,7 @@ def addition(b,c):
     return 10
 print(addition(3,5))
 #8
+#Mine 8
 
 #11
 b = 500
@@ -84,6 +94,7 @@ print(b)
 foobar()
 print(b)
 #500 500 300 500 
+#Mine 500 500 300 500
 
 #12
 b = 500
@@ -96,6 +107,7 @@ print(b)
 foobar()
 print(b)
 # 500 500 300 500
+#Mine 500 500 300 500
 
 #13
 b = 500
@@ -108,6 +120,7 @@ print(b)
 b=foobar()
 print(b)
 # 500 500 300 300
+#Mine 500 500 300 300
 
 
 #14
@@ -119,6 +132,7 @@ def bar():
     print(3)
 foo()
 # 1 3 2
+#Mine 1 3 2
 
 #15
 def foo():
@@ -132,3 +146,4 @@ def bar():
 y = foo()
 print(y)
 # 1 3 5 10
+#Mine 1 3 5 10
